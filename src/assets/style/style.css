@@ -53,9 +53,6 @@ nav a:hover {
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	/*	border-color: #000000;
-	border-width: 2px;
-	border-style: solid;*/
 	border: 2px solid #000000;
 	border-radius: 10px;
 }
@@ -268,13 +265,16 @@ th {
 	margin: 1em auto;
 }
 
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 940px) {
 
 	.caixa,
 	.principal,
 	.conteudo-beneficios,
 	.mapa,
-	.video {
+	.video,
+	.main-contato,
+	.main-produtos,
+	.produtos {
 		width: auto;
 		padding-right: 2%;
 		padding-left: 2%;
@@ -295,5 +295,19 @@ th {
 	.lista-beneficios,
 	.img-beneficios {
 		width: 100%;
+	}
+
+	.produtos li {
+		display: block;
+		width: auto;
+		margin: 1em auto;
+	}
+
+	.produtos img {
+		width: auto;
+	}
+
+	.input-padrao {
+		width: 80%;
 	}
 }
